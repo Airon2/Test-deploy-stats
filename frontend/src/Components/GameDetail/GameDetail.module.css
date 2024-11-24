@@ -1,0 +1,173 @@
+/* GenreDropdown.css */
+
+.genre_dropdown {
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.all_games {
+    cursor: pointer;
+    width: 201.5px;
+    height: 50px;
+    background-color: #FBDF52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.all_games_open {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: #FBDF52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.genre_menu {
+    position: absolute;
+    top: 100%; /* Поместите меню под кнопку */
+    width: 200px;
+    background-color: #FBDF52;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid black;
+    border-top: none;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Sample_Game_icon{
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+}
+.Sample_Game_btn{
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+.SampleGames_wrapper{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Sample_Game_text{
+    color: #fff;
+    text-align: center;
+}
+/*////////////////////////////////////////////////////////////////////*/
+.SampleGamesLider{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SampleGamesLider_wrapper{
+    width: 80%;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+.Categories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Categories_wrapper{
+    width: 85%;
+}
+.Games{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.SampleGameStatic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SampleGameStatic_wrapper{
+    width: 80%;
+    height: 1500px;
+}
+.tablegamer {
+    height: 1000px;
+    background: url(../../../public/Gamestatic.png) 0 0/cover no-repeat;
+}
+.tablegamer_values{
+    height: 40px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #74818E;
+}
+.tablegamer_wrapper{
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.Rank{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Player{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Name{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.user_static{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Player_icon{
+    width: 35px;
+}
+
+.GameDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.GameIcon {
+    width: 128px;
+    height: 128px;
+}
